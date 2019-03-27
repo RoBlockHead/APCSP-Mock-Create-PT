@@ -1,4 +1,5 @@
-# This code is for the AP CSP Mock Create Task
+# This code is for the AP CSP Mock Create Task Project
+# Due: 3/27/2019
 # Purpose: Guessing Game
 # Constraints:
 # Must Include:
@@ -26,7 +27,7 @@ def menu():
   print("""Welcome to the guessing game!
 Select A Game Mode:
 1: Easy (0-100)
-2: Hard (0-400)""")
+2: Hard (0-400)\n""")
   choice = input("")
   # Check for input 1 or "easy"
   if choice == "1" or choice.lower() == "easy":
